@@ -64,8 +64,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
     keyboard = [
         [
-            InlineKeyboardButton(text="𝒎𝒐𝒉𝒂𝒎𝒎𝒆𝒅", url="tg://user?id=6264668799"),
-            InlineKeyboardButton(text="᥉᥆ᥙᖇᥴᥱ 𝒎𝒐𝒉𝒂𝒎𝒎𝒆𝒅", url="https://t.me/Your_uncle_Muhammad")
+            InlineKeyboardButton(text="ᴍᴏʜᴧᴍᴍᴇᴅ • محمد", url="tg://user?id=6264668799"),
+            InlineKeyboardButton(text="ملفات 𝐏𝐘𝐓𝐇𝐎𝐍", url="https://t.me/Your_uncle_Muhammad")
         ],
         [
             InlineKeyboardButton(text="Add me to a channel", url="https://t.me/planet_646bot?startchannel")
