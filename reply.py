@@ -83,7 +83,7 @@ WATCH_WORDS_RESPONSES = {
     'اه': ['الشارع الي وراه 🤣', 'وجع ولا دلع'],
 }
 
-TELEGRAM_TOKEN = os.environ.get("7696110235:AAGfHSLfVvH3VUMLahzHNWhHATYuKmxgNkE")
+TELEGRAM_TOKEN = "7696110235:AAGfHSLfVvH3VUMLahzHNWhHATYuKmxgNkE"
 
 def reply_to_watch_word(update: Update, context: CallbackContext) -> None:
     message_text = update.message.text.lower()
