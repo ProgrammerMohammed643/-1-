@@ -85,6 +85,7 @@ WATCH_WORDS_RESPONSES = {
 
 TELEGRAM_TOKEN = "7937133144:AAFoe6xt2zyyRl7Gqf8FRQ087xgYmXbqcSA"
 
+
 def reply_to_watch_word(update: Update, context: CallbackContext) -> None:
     message_text = update.message.text.lower()
     for word, responses in WATCH_WORDS_RESPONSES.items():
